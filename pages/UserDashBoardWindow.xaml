@@ -1,0 +1,21 @@
+﻿<Window x:Class="ProjectPHT.Pages.UserDashBoardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectPHT.Pages"
+        mc:Ignorable="d"
+        Title="UserDashBoardWindow" Height="450" Width="800" Closing="Window_Closing" Background="#FF0D3937">
+    <Canvas>
+        <TextBlock TextWrapping="Wrap" Text="USER DASHBOARD" Height="60" Width="800" HorizontalAlignment="Left"
+VerticalAlignment="Center" FontSize="36" FontWeight="Bold" Background="White" 
+TextAlignment="Center" Foreground="#FFE51717" FontFamily="Copperplate Gothic Bold"/>
+        <Button x:Name="btnMetrixEntry"  Content="Daily&#xA;Health Metrix&#xA;Entry" Height="59" Canvas.Left="338" Canvas.Top="111" Width="136" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btnMetrixEntry_Click"/>
+        <Button x:Name="btnHealthInsight" Content="Health&#xD;&#xA;Insight" Height="59" Canvas.Left="338" Canvas.Top="208" Width="136" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btnHealthInsight_Click"/>
+        <Button x:Name="btnHealthHistory" Content="Health&#xD;&#xA;History" Height="59" Canvas.Left="340" Canvas.Top="306" Width="136" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btnHealthHistory_Click"/>
+        <Button x:Name="btnHealthGoals" Content="Health&#xD;&#xA;Goals" Height="59" Canvas.Left="556" Canvas.Top="106" Width="136" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btnHealthGoals_Click"/>
+        <Button x:Name="btnDeviceIntegration" Content="Device &#xD;&#xA;Integration" Height="59" Canvas.Left="562" Canvas.Top="305" Width="136" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btnDeviceIntegration_Click"/>
+        <Button x:Name="btnSettings" Content="Settings" Height="59" Canvas.Left="560" Canvas.Top="209" Width="136" Click="Button_Click" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+    </Canvas>
+</Window>
